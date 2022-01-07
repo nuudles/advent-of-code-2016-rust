@@ -1,7 +1,5 @@
 use std::collections::HashSet;
 
-use itertools::iproduct;
-
 use crate::selfprint::SelfPrint;
 
 fn safe_tile_count(input: &String, rows: usize) -> usize {
